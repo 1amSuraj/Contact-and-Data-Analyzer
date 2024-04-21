@@ -1,0 +1,19 @@
+.home{
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 92.5vh;
+    padding-inline: 30px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../contactBG.avif");
+}
+.home-title{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    word-spacing: 1%;
+}
+.home-description{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,83 @@
+.form-container,.add-form-container{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../contactBG.avif");
+}
+.form-container{
+    height: 100vh;
+}
+.add-form-container{
+    height: 90vh;
+}
+.form,.add-form{
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+.form{
+    width: 300px;
+}
+.add-form{
+    width: 500px;
+}
+.form h2,.add-form h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.add-form .form-group{
+    display: flex;
+    align-items: center;
+}
+.form .form-group{
+    margin-bottom: 15px;
+}
+.add-form .form-group input{
+    width: 100%;
+    margin-left: 10px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 0px;
+    border-bottom: 1px solid rgb(43,42,42);
+    background-color: transparent;
+}
+.add-form .form-group input::placeholder{
+    color: rgb(43,42,42);;
+}
+.add-form .form-group input:focus{
+    outline: none;
+}
+
+.form .form-group label{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.form .form-btn,.add-form .form-btn{
+    background-color: rgb(5,121,121);
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+.error{
+    color: red;
+}

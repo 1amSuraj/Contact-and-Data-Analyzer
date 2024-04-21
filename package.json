@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "fast-glob": "^3.3.2",
+    "unplugin-auto-import": "^0.17.5"
+  }
+}

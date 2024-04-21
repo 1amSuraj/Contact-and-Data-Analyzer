@@ -1,0 +1,42 @@
+.dashboard{
+    display: flex;
+    height: 90vh;
+}
+.dashboard .sidebar-container{
+    width: 20%;
+    border-right: 2px solid grey;
+}
+
+.dashboard .contact-container{
+    width: 80%;
+}
+
+/*contacts*/
+.contact-list{
+    padding: 20px 60px 0px 60px;
+    text-align: center;
+}
+.table-icon1,.table-icon2{
+    margin: 0px 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.table-icon1{
+    color: green;
+}
+.table-icon2{
+    color: red;
+}
+
+/*404 page */
+
+.not-found{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(20,20,20);
+    color: yellow;
+    align-items: center;
+    justify-content: center;
+}
